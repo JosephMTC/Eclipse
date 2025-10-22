@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Camiseta Deportiva",
+    "price": 19.99,
+    "category": "Ropa",
+    "image": "/public/products/camisaDeportiva.jpg",
+    "description": "Camiseta transpirable ideal para hacer ejercicio."
+  },
+  {
+    "id": 2,
+    "name": "Pantalones Formales",
+    "price": 39.99,
+    "category": "Ropa",
+    "image": "/public/products/pantalonesFormales.jpg",
+    "description": "Vaqueros clásicos, cómodos y resistentes."
+  },
+  {
+    "id": 3,
+    "name": "Zapatos Running",
+    "price": 59.99,
+    "category": "Calzado",
+    "image": "/public/products/zapatosRunning.jpg",
+    "description": "Zapatillas con amortiguación para correr largas distancias."
+  },
+  {
+    "id": 4,
+    "name": "Bolso de Mano",
+    "price": 29.99,
+    "category": "Accesorios",
+    "image": "/public/products/bolsaDeMano.jpg",
+    "description": "Bolso elegante y ligero, ideal para la ciudad."
+  },
+  {
+    "id": 5,
+    "name": "Sudadera con Capucha",
+    "price": 24.99,
+    "category": "Ropa",
+    "image": "/public/products/sudaderaConCapucha.jpg",
+    "description": "Sudadera confortable para días fríos."
+  },
+  {
+    "id": 6,
+    "name": "Sandalias de Playa",
+    "price": 14.99,
+    "category": "Calzado",
+    "image": "/public/products/sandaliaDePlaya.jpg",
+    "description": "Sandalias cómodas y resistentes al agua."
+  },
+
+  {
+    "id": 7,
+    "name": "Zapatos Converse",
+    "price": 120.00,
+    "category": "Calzado",
+    "image": "/public/products/product1.jpg",
+    "description": "Diseño clásico con comodidad duradera y una Versatilidad pura."
+  },
+  {
+    "id": 8,
+    "name": "Ropa Formal",
+    "price": 95.50,
+    "category": "Ropa",
+    "image": "/public/products/product2.jpg",
+    "description": "Conjunto compuesto por chaqueta con solapas de seda, pantalón de corte impecable, camisa de vestir inmaculada y una corbata de seda que aporta un toque de sobriedad y distinción. Ideal para eventos de máxima etiqueta."
+  },
+  {
+    "id": 9,
+    "name": "Vestido de Dama",
+    "price": 150.00,
+    "category": "Ropa",
+    "image": "/public/products/product3.jpg",
+    "description": "Este vestido largo captura todas las miradas con su caída fluida y elegante. Confeccionado en una tela suntuosa, ofrece un tacto suave y una apariencia rica y sofisticada."
+  },
+  {
+    "id": 10,
+    "name": "Camisa Formal Limitada",
+    "price": 200.00,
+    "category": "Calzado",
+    "image": "/public/products/product4.jpg",
+    "description": "Descubre la sofisticación en cada trama. Estas camisas de corte impecable presentan un sutil y distinguido patrón de cuadros micro-vichy, ofreciendo una textura visual que se desmarca de lo convencional. Con cuellos firmes y detalles cuidados como las costuras contrastantes en los ojales y botones de diseño, encarnan una fusión de tradición y vanguardia. Su presentación en un estuche premium refuerza su estatus de pieza curada y limitada, reflejando un valor que trasciende lo ordinario."
+  }
+]
