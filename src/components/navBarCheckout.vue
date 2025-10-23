@@ -13,7 +13,7 @@
       <div class="brand" role="img" aria-label="Mi E-Commerce">
         <router-link to="/" class="brand-link" aria-label="Ir al inicio - Mi E-Commerce">
           <img class="brand-logo" :src="logoUrl" alt="Mi E-Commerce" v-if="logoUrl" />
-          <span class="brand-title">Mi E-Commerce</span>
+          <span class="brand-title">Eclipse</span>
         </router-link>
       </div>
 

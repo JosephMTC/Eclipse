@@ -30,10 +30,10 @@
           to="/"
           class="pointer-events-auto inline-flex items-center gap-3 text-2xl font-extrabold tracking-wide uppercase transition-all duration-300 brand"
           :class="isHovered || isScrolled || isCheckoutPage ? 'text-gray-900' : 'text-white drop-shadow-md'"
-          aria-label="Ir al inicio - Mi E-Commerce"
+          aria-label="Ir al inicio - Eclipse"
         >
           <img src="/src/assets/eclipse-2.svg" alt="Logo" class="w-9 h-9 rounded-lg object-contain" aria-hidden="true"/>
-          <span class="leading-tight">Mi E-Commerce</span>
+          <span class="leading-tight">Eclipse</span>
         </router-link>
       </div>
 

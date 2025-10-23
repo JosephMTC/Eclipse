@@ -8,7 +8,7 @@
             <!-- Placeholder logo (reemplaza por tu componente/logo real) -->
              <img src="/src/assets/eclipse-2.svg" alt="Logo" class="w-9 h-9 rounded-lg object-contain" aria-hidden="true"/>
             <div>
-              <div class="text-lg font-extrabold text-gray-900">Mi ecommerce</div>
+              <div class="text-lg font-extrabold text-gray-900">Eclipse</div>
               <div class="text-sm text-gray-500">La vestimenta ideal a un solo click.</div>
             </div>
           </div>
