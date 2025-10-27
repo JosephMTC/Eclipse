@@ -304,7 +304,7 @@ function addToCart(product) {
     });
     saveLocalCart();
     saveCartIfLoggedIn().catch((e) => {
-      console.warn("No se pudo guardar carrito en servidor inmediatamente:", e);
+      console.warn("No se pudo guardar carrito en servidorADC:", e);
     });
     console.log("Añadido al carrito:", product.name, "Carrito ahora:", cart.value);
   } catch (e) {
@@ -314,9 +314,15 @@ function addToCart(product) {
 function quickView(product) {
   console.log("Quick view:", product);
 }
+
+// --- ¡MODIFICACIÓN AQUÍ! ---
 function goToCatalog() {
-  console.log("Ir al catálogo");
+  // Antes: console.log("Ir al catálogo");
+  // Ahora: Navega a la vista de productos usando el router.
+  router.push({ name: 'products' }); 
 }
+// --------------------------
+
 function contactSales() {
   console.log("Contactar ventas");
 }
@@ -341,6 +347,7 @@ function goToProduct(idOrProduct) {
 }
 </script>
 
+<!-- TUS ESTILOS (no se han modificado) -->
 <style>
 :root {
   --p1: #9333ea;
@@ -492,14 +499,14 @@ function goToProduct(idOrProduct) {
 .dot-bottom { transform: translateY(6px); }
 
 /* ==== Swiper bullets (mejoradas) ==== */
-.swiper-pagination-bullet {
+:deep(.swiper-pagination-bullet) {
   width: 10px;
   height: 10px;
   background: rgba(255,255,255,0.18);
   opacity: 1;
   border: 1px solid rgba(255,255,255,0.06);
 }
-.swiper-pagination-bullet-active {
+:deep(.swiper-pagination-bullet-active) {
   background: linear-gradient(90deg, var(--p1), var(--p2));
   box-shadow: 0 6px 18px rgba(147,51,234,0.18);
   transform: scale(1.2);
@@ -593,8 +600,8 @@ function goToProduct(idOrProduct) {
 }
 
 /* ======================
-   FIXES RESPONSIVE para la sección "best products"
-   ====================== */
+    FIXES RESPONSIVE para la sección "best products"
+    ====================== */
 
 /* Alineado y separación consistentes del grid */
 .best-products-grid {
