@@ -2,7 +2,7 @@
 export default {
   plugins: {
     'postcss-import': {},
-    '@tailwindcss/postcss': {},  // ✅ este es el nuevo plugin correcto
+    '@tailwindcss/postcss': {},  
     autoprefixer: {},
   },
 }
