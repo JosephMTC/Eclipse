@@ -1,5 +1,5 @@
 // src/router/index.js
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router"; // <--- CAMBIO 1
 import HomeView from "../views/HomeView.vue";
 import ProductView from "../views/ProductView.vue";
 import ProductList from "../components/ProductList.vue"; // <-- añadido: vista listado
@@ -54,7 +54,7 @@ const routes = [
 
 const router = createRouter({
   
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL), // <--- CAMBIO 2
   // ---------------------------------
   routes,
 });
